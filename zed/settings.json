@@ -7,35 +7,39 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+
     "edit_predictions": {
+        
         "disabled_globs": [],
-        "mode": "eager",
+        "mode": "subtle",
         "copilot": {
             "proxy": null,
             "proxy_no_verify": null
         },
-        "enabled_in_assistant": false
+        "enabled_in_text_threads": false
     },
     "project_panel": {
         "dock": "right"
     },
     "features": {
-        "edit_prediction_provider": "zed"
+        "edit_prediction_provider": "zed",
     },
-    "assistant": {
+    "agent": {
+        "play_sound_when_agent_done": true,
+        "default_profile": "write",
+        "always_allow_tool_actions": true,
         "default_model": {
-            "provider": "copilot_chat",
-            "model": "gpt-4o"
+            "provider": "anthropic",
+            "model": "claude-sonnet-4-latest"
         },
-        "version": "2"
     },
-    "autosave": {
+   "autosave": {
         "after_delay": { "milliseconds": 1000 }
     },
     "vim_mode": false,
     "ui_font_size": 16,
     "base_keymap": "JetBrains",
-    "buffer_font_size": 16.0,
+    "buffer_font_size": 17.0,
     "theme": {
         "mode": "system",
         "light": "One Light",
@@ -57,6 +61,7 @@
                 }
             }
         }
+
     },
     "lsp": {
         "basedpyright": {
