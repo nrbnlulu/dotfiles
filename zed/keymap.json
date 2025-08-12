@@ -83,7 +83,40 @@
     },
     {
       "bindings": {
-        "ctrl-shift-+": "workspace::ToggleZoom"
+        "ctrl-shift-m": "workspace::ToggleZoom"
+      }
+    },
+    {
+      "bindings": {
+        "ctrl-q": null
+      }
+    },
+    {
+      "context": "Editor",
+      "bindings": {
+        "ctrl-w": null
+      }
+    },
+    {
+      "context": "Editor",
+      "bindings": {
+        "ctrl-shift-w": null
+      }
+    },
+    {
+      "bindings": {
+        "ctrl-+": null
+      }
+    },
+    {
+      "context": "(Pane || Editor)",
+      "bindings": {
+        "ctrl-w": [
+          "pane::CloseActiveItem",
+          {
+            "close_pinned": false
+          }
+        ]
       }
     }
 ]
