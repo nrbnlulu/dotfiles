@@ -118,5 +118,11 @@
           }
         ]
       }
+    },
+    {
+      "context": "Editor",
+      "bindings": {
+        "ctrl-\\": null
+      }
     }
 ]
