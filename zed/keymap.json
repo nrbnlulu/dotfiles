@@ -58,7 +58,6 @@
             "shift-l": "pane::ActivateNextItem",
             // Close active panel
             "shift-q": "pane::CloseActiveItem",
-            "ctrl-q": "pane::CloseActiveItem",
             "space b d": "pane::CloseActiveItem",
             // Close other items
             "space b o": "pane::CloseInactiveItems",
@@ -84,11 +83,6 @@
     {
       "bindings": {
         "ctrl-shift-m": "workspace::ToggleZoom"
-      }
-    },
-    {
-      "bindings": {
-        "ctrl-q": null
       }
     },
     {
